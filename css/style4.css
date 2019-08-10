@@ -9,15 +9,23 @@ body {
   background-color: hsl(214, 64%, 98%);
   font-family: 'Open Sans-bold', sans-serif;
   font-size: 18px;
+  color: #555;
 }
 
 h1 {
   text-align: center;
   font-family: 'Poppins-Bold', sans-serif;
-}
+  color: #111;
 
+}
+h2 {
+  font-family: 'Poppins-Bold', sans-serif;
+  color: #111;
+
+ }
 p {
   text-align: center;
+  line-height: 1.4;
 }
 
 input {
@@ -39,24 +47,9 @@ button {
 }
 
 
-/* --------------------------- Start the top header--------------------------- */
+/* --------------------------- Start the top header--------------------------*/
 
-.header-bg {
-  width: 700px;
-  height: 200%;
-  background: linear-gradient(90deg, #e252d2, #fe6fac);
-  position: absolute;
-  right: 10px;
-  z-index: -1;
-  transform: rotate(-35deg) translate(60%);
-  border-radius: 90px;
-}
 
-@media only screen and (max-width: 768px) {
-  .header-bg {
-    transform: rotate(-35deg) translate(90%, -3%);
-  }
-}
 
 
 .header .logo {
@@ -72,18 +65,22 @@ button {
   right: 50px;
   width: 150px;
   text-align: center;
-  color: #f666b7;
+  background-color: ;
+  color: #fff;
   padding: 10px;
   text-decoration: none;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  background-color: hsl(220, 60%, 98%);
+  background-color:#f666b7;
   border-radius: 5px;
+
+
 }
+
 
 /* --------------------------- End the top header--------------------------- */
 /* -------------- Mobile header---------------------- */
 
-@media (max-width: 749px) {
+@media  (max-width: 749px) {
   .header .logo {
     width: 30%;
     position: absolute;
@@ -128,7 +125,7 @@ button {
 
 /* --------------------------- End the first section contant--------------------------- */
 /* --------------- Mobile section contant-------------------- */
-@media (max-width: 749px) {
+@media  (max-width: 749px) {
 #first .mockups {
   width: 60%;
   display: block;
@@ -145,7 +142,7 @@ button {
 
 /* --------------------------- Start the secont section contant--------------------------- */
 
-.container {
+#second .container {
   width: 100%;
   margin: 100px 10px 80px;
   padding: 30px;
@@ -172,25 +169,31 @@ button {
 }
 
 /* --------------------------- End the secont section contant--------------------------- */
+
+
 /* --------------- Mobile section contant-------------------- */
 @media (max-width: 749px) {
-  .container {
+  #second .container {
     width: 100%;
-    display: inline-block;
-    margin: 5px auto 10px;
+    display: block;
+    margin: 0px auto;
+
   }
 
   #second .user-img {
-    width: 500px;
-    display: block;
-    margin: 30px auto 10px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+
+
   }
 
   #second .second-contant {
-    width: 400px;
-    margin: 10px auto 5px;
-  }
+    width: 300px;
+    margin: 0px auto;
+    display: block;
 
+}
   #second .second-contant .feat {
     margin-bottom: 20px;
   }
@@ -207,10 +210,12 @@ button {
 }
 
 /* --------------- Mobile section contant-------------------- */
+
+
 /* --------------------------- Start the box contant--------------------------- */
 
 #boxing {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .box {
@@ -249,7 +254,7 @@ button {
 
 /* --------------------------- End the box contant--------------------------- */
 /* --------------- Mobile boxing-------------------- */
-@media (max-width: 749px) {
+@media  (max-width: 749px) {
     #boxing .box {
       width: 400px;
       display: block;
@@ -363,8 +368,8 @@ button {
 }
 
 /* For mobile phones: */
-
-@media (max-width: 749px) {
+/* ----------------------- Mobile Footer------------------------ */
+@media  (max-width: 749px) {
   #footer .cta-footer {
     width: 100%;
     display: block;
@@ -430,9 +435,8 @@ button {
 
   button {
     background-color: hsl(322, 100%, 66%);
-    float: right;
     padding: 3%;
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     color: white;
     border-radius: 3px;
@@ -455,6 +459,7 @@ button {
     font-family: 'Poppins', sans-serif;
   }
 }
+/* ----------------------- Mobile Footer------------------------ */
 
 /* End the Section of Footer */
 /* Start My framwork */
