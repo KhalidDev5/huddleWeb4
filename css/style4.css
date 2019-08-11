@@ -10,6 +10,8 @@ body {
   font-family: 'Open Sans-bold', sans-serif;
   font-size: 18px;
   color: #555;
+
+
 }
 
 h1 {
@@ -48,7 +50,6 @@ button {
 
 
 /* --------------------------- Start the top header--------------------------*/
-
 
 
 
@@ -225,6 +226,7 @@ button {
   background: white;
   border-radius: 5px;
   text-align: center;
+
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -242,13 +244,14 @@ button {
 
 #boxing .btn-center {
   background-color: hsl(322, 100%, 66%);
-  padding: 12px 30px;
+  padding: 12px 10px;
   color: #fff;
   font-size: 16px;
   border: none;
   border-radius: 10px;
   text-align: center;
   text-decoration: none;
+
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -256,12 +259,15 @@ button {
 /* --------------- Mobile boxing-------------------- */
 @media  (max-width: 749px) {
     #boxing .box {
-      width: 400px;
+      width: 300px;
+      margin: 10px auto;
       display: block;
       background: white;
       border-radius: 2px;
+      overflow-x:hidden;
       text-align: center;
       box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+
     }
 
     .box h2 {
